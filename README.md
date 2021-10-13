@@ -1,5 +1,16 @@
 # inx-nodered-modbus-demonstrator
-This project demonstrates how to use nodered to communicate with an EHS device using modbus.  
+This project demonstrates how to use nodered to communicate with an EHS device using modbus.
+
+## HRDc setup
+Install Lucid Application Builder from https://devport.inx-systems.com/appStore/binaries/BRIX-tools.exe
+
+Open the example project in modbus_test.
+
+Go to the Run menu and click on Run Options. Enter the IP address of your HRDc and then click Ok.
+
+Then click the Run button next to the IP address and the modbus app should be loaded on to your device.
+
+## Raspberrypi setup
 Install the default raspberry pi image.  
 Then open a terminal and run this command  
 `bash <(curl -sL https://raw.githubusercontent.com/pbeaumontinx/inx-nodered-modbus-demonstrator/main/raspberry-setup.sh)`  
